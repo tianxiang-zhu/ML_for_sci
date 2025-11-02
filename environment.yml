@@ -1,0 +1,23 @@
+name: aimat
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - bokeh
+  - jupyter
+  - matplotlib
+  - nbgrader
+  - networkx
+  - numpy
+  - pandas
+  - python=3.10
+  - pymysql
+  - pyyaml
+  - rdkit
+  - pip
+  - scikit-learn
+  - tensorflow
+  - xlrd
+  - pip:
+    - pygame
+    - pyvis
